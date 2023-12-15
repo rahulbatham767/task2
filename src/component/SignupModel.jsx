@@ -3,7 +3,7 @@ import { Modal, Button, Form, Row, Col } from "react-bootstrap";
 import { FaEye, FaFacebookF, FaGoogle } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
-const SignupModal = ({ showSignupModal, handleClose, handleShowLogin }) => {
+const SignupModel = ({ showSignupModal, handleClose, handleShowLogin }) => {
   return (
     <Modal
       show={showSignupModal}
@@ -111,4 +111,4 @@ const SignupModal = ({ showSignupModal, handleClose, handleShowLogin }) => {
   );
 };
 
-export default SignupModal;
+export default SignupModel;

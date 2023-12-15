@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Container } from "react-bootstrap";
 import { FaSearch } from "react-icons/fa";
-import SignupModal from "./SignUpModel";
+import SignupModel from "./SignupModel";
 import LoginModal from "./LoginModal";
 
 const Navigation = ({ isLoggedIn }) => {
@@ -101,7 +101,7 @@ const Navigation = ({ isLoggedIn }) => {
                   >
                     It's Free
                   </button>
-                  <SignupModal
+                  <SignupModel
                     showSignupModal={showSignupModal}
                     handleClose={handleClose}
                     handleShowLogin={handleShowLogin}
